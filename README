@@ -1,0 +1,54 @@
+Welcome to use our estore!
+
+Navigating to http://server_name/estore or http://server_name/estore/index.php to our homepage.
+
+There are two mode to use our website: customer and admin.
+
+
+Admin:
+If your login in as admin, the username and password are both 'admin'.
+
+Admin can add new product, view customers information and orders information.
+
+It already had 4 products in our website.
+
+If the admin want to add a new product, he need to fill all of the product's name, description and price and upload a picture of the product. 
+
+View product information can see the products' id, name, price, description and its image.
+Delete and edit the product info.
+
+View customer information can see the customers' username, firstname, lastname and email address.
+
+And Display the order information(order id, customer id who ordered, order date and time and total).
+
+When you click View order info, it will display the items and their details in this order.
+
+Finally the admin can delete all of the customer and orders.
+
+Customer:
+
+There alreay have a customer in the database. Username:g3naiver and password:123456.
+
+You can also sign up a new account, in that case you need to fill firstname, lastname, unqiue username and email address. Besides, you should enter twice password which should be last least
+6 characters and two passwords should be matched.
+
+
+When you sign up, the page will reload to the index page and you need to login again.
+
+The shopping cart will be displayed at the bottom of the customer page.
+
+Customers have shopping cart only when they logout or checkout, the shopping cart will be destroied.
+
+
+
+You can add or edit items in the shopping cart. Use the negetive number to modify the quantity of items in the shopping. If certain product's quantity is not greater than 0, it will be seen as removed from the shopping cart.
+
+Customers can checkout when they are sure the items they want to buy. They need to enter the creditcard num which is exactly 16digits and expire date and year(all 2 digits). The expire date and year should be vaild and not out of date.
+
+
+The shopping cart is empty still can checkout, but after you enter the credit card info, it will remind you the shopping cart is empty and the date will not be in the database.
+
+
+After checkout it will display a receipt, you can print it. Besides, you will receive an email of this receipt.
+
+Notice:Please do not try to use refresh or back at the browser. Use "back" and "home" on the page. 
